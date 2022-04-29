@@ -20,7 +20,7 @@ setInterval(countdown, 1000)
 
 // Background Music
 
-var audio = new Audio('audio/lofi.mp3');
+var audio = new Audio('audio/lofi2.mp3');
 audio.loop = true;
 
 
