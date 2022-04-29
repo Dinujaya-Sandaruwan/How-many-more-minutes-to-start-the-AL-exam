@@ -243,10 +243,10 @@ a, a:visited, a:active {
   transition-duration: 0.5s;
 }
 .content .play {
-  border: 3px solid rgb(0, 255, 0);
+  border: 3px solid rgb(0, 190, 0);
 }
 .content .play:hover {
-  background-color: rgb(0, 255, 0);
+  background-color: rgb(0, 190, 0);
 }
 .content .puse {
   border: 3px solid rgb(255, 94, 0);
