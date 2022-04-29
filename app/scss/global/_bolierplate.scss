@@ -1,0 +1,20 @@
+@use '../util/' as u;
+
+// @use '../util/' as *; Don't need "u" when use this
+
+html{
+    box-sizing: border-box;
+    font-size: 100%;
+}
+
+*,*::before,*::after {
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    font-weight: 300;
+    color: white;
+    background-color: var(--dark-color);
+}

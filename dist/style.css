@@ -1,0 +1,69 @@
+html {
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0px;
+  padding: 0px;
+  font-weight: 300;
+  color: white;
+  background-color: var(--dark-color);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  line-height: 1.1;
+  margin: 0;
+}
+
+h1 {
+  font-size: clamp(1.875rem, 8vw, 5rem);
+}
+
+h2 {
+  font-size: clamp(1.40625rem, 6vw, 3.75rem);
+}
+
+h3 {
+  font-size: clamp(1.171875rem, 5vw, 3.125rem);
+}
+
+h4 {
+  font-size: clamp(0.703125rem, 3vw, 1.875rem);
+}
+
+x h5 {
+  font-size: clamp(0.5859375rem, 2vw, 1.5625rem);
+}
+
+h6 {
+  font-size: clamp(0.625rem, 2vw, 1.25rem);
+}
+
+p {
+  font-size: clamp(0.625rem, 2vw, 1.25rem);
+}
+
+p {
+  margin: 0;
+}
+
+a, a:visited, a:active {
+  text-decoration: none;
+}
+
+:root {
+  --dark-color:rgb(26, 26, 26);
+}
+
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}/*# sourceMappingURL=style.css.map */

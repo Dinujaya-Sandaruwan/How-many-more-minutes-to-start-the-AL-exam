@@ -1,0 +1,29 @@
+@use '../util/' as u;
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+    line-height: 1.1;
+    margin: 0;
+}
+
+h1{font-size: clamp(u.rem(30), 8vw, u.rem(80));}
+ 
+h2{font-size: clamp(u.rem(22.5), 6vw, u.rem(60));}
+ 
+h3{font-size: clamp(u.rem(18.75), 5vw, u.rem(50));}
+ 
+h4{font-size: clamp(u.rem(11.25), 3vw, u.rem(30));}
+ x
+h5{font-size: clamp(u.rem(9.375), 2vw, u.rem(25));}
+ 
+h6{font-size: clamp(u.rem(10), 2vw, u.rem(20));}
+ 
+p{font-size: clamp(u.rem(10), 2vw, u.rem(20));}
+
+p{
+    margin: 0;
+}
+
+a, a:visited, a:active{
+    text-decoration: none;
+}
